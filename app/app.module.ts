@@ -6,9 +6,10 @@ import { UsersComponent }  from './components/users/users.component';
 import {NavBarComponent  } from './components/navbar/navbar.component';
 import { AboutComponent } from './components/about/about.component';
 import { ContactComponent } from './components/contact/contact.component';
+import {routing} from './app.router';
 
 @NgModule({
-  imports:      [ BrowserModule ],
+  imports:      [ BrowserModule,routing],
   declarations: [ AppComponent,UsersComponent, NavBarComponent,ContactComponent,AboutComponent],
   bootstrap:    [ AppComponent ]
 })
