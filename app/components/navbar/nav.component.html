@@ -1,8 +1,13 @@
-<ul> 
-    <li> <a routerLink="{{homeLink}}">{{home}} </a>
-    </li>
 
-     <li> <a routerLink="{{contactLink}}">{{contact}}</a>
-      <li> <a routerLink="{{aboutLink}}">{{about}}</a>
+
+ <nav>
+    <div class="nav-wrapper">
+      <a href="#" class="brand-logo center">Logo</a>
+      <ul id="nav-mobile" class="left hide-on-med-and-down">
+        <li> <a routerLink="{{homeLink}}">{{home}} </a></li>
+        <li><a routerLink="{{contactLink}}">{{contact}}</a>
+        <li><a routerLink="{{aboutLink}}">{{about}}</a>
     </li>
-</ul>
+      </ul>
+    </div>
+  </nav>

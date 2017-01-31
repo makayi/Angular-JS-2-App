@@ -21,7 +21,7 @@ export class NavBarComponent  {
 
     this.aboutLink="/About";
     this.contactLink="/contact";
-    this.homeLink="/Home";
+    this.homeLink="";
   }
 
   
