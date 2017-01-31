@@ -3,20 +3,20 @@ import { Routes,RouterModule } from '@angular/router';
 
 import { AboutComponent } from './components/about/about.component';
 import { ContactComponent } from './components/contact/contact.component';
-import {  } from './components/home/home.component';
+import { HomeComponent } from './components/home/home.component';
 
 
 const appRoutes:Routes=[
     {
-        path:'',
+        path:'About',
         component:AboutComponent
     }, {
         path:'contact',
         component:ContactComponent
     },
     {
-        path:'home',
-        component:hom
+        path:'',
+        component:HomeComponent
     }
 ];
 
